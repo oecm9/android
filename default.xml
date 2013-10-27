@@ -7,6 +7,9 @@
   <remote  name="github"
            fetch=".."
            review="review.cyanogenmod.org" />
+  
+  <remote  name="oecm9"
+           fetch="git://github.com/" />
 
   <remote  name="private"
            fetch="ssh://git@github.com" />
@@ -32,7 +35,7 @@
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
   <project path="device/sample" name="device/sample" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
   <project path="device/ti/panda" name="device/ti/panda" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
-  <project path="device/lge/m3s" name="oecm9/android_device_lge_m3s" />
+  <project path="device/lge/m3s" name="oecm9/android_device_lge_m3s" remote="oecm9" revision="refs/heads/ICS" />
   <project path="external/android-mock" name="platform/external/android-mock" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
   <project path="external/antlr" name="platform/external/antlr" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
   <project path="external/apache-harmony" name="platform/external/apache-harmony" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
@@ -261,7 +264,7 @@
   <project path="vendor/qcom/opensource/omx/mm-core" name="CyanogenMod/android_vendor_qcom_opensource_omx_mm-core" />
   <project path="vendor/qcom/opensource/omx/mm-video" name="CyanogenMod/android_vendor_qcom_opensource_omx_mm-video" />
   <project path="vendor/qcom/opensource/v8" name="CyanogenMod/android_vendor_qcom_opensource_v8" />
-  <project path="vendor/qcom/proprietary" name="oecm9/platform_vendor_qcom_proprietary" />
+  <project path="vendor/qcom/proprietary" name="oecm9/platform_vendor_qcom_proprietary" remote="oecm9" revision="refs/head/ics-devel" />
   <project path="vendor/tmobile/apps/ThemeChooser" name="CyanogenMod/themes-platform-vendor-tmobile-apps-ThemeChooser" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="CyanogenMod/android_vendor_tmobile_libs_com.tmobile.themes" />
   <project path="vendor/tmobile/providers/ThemeManager" name="CyanogenMod/android_vendor_tmobile_providers_ThemeManager" />
